@@ -464,6 +464,14 @@
         margin-top: 0px;
     }
 
+    .copy-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
     .sub-copy-right {
         display: flex;
         gap: 20px;
