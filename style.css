@@ -298,6 +298,10 @@
     height: 20px;
 }
 
+#c-r-2 {
+    display: none;
+}
+
 
 /* copy right end */
 
@@ -412,9 +416,6 @@
     display: none;
     }
 
-    .copy-right {
-        display: none;
-    }
 
     .wave-image {
         width: 100%;
@@ -461,5 +462,18 @@
         position: unset;
         right: 0px;
         margin-top: 0px;
-}
+    }
+
+    .sub-copy-right {
+        display: flex;
+        gap: 20px;
+    }
+
+    #c-r-1 {
+    display: none;
+    }
+
+    #c-r-2 {
+    display: unset;
+    }
 }
